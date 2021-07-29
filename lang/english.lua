@@ -186,8 +186,17 @@ function en.lang()
         notcreator = "You are not the creator!",
         sendwait = "Please Wait.",
         converting = {
-            voice = "Converting to Voice message\n#progress",
+            voice = "Converting to *Voice message*\n#progress",
+            video = "Converting to *Video*\n#progress",
+            audio = "Converting to *Audio*\n#progress",
+            sticker = "Converting to *Sticker*\n#progress",
+            photo = "Converting to *Photo*\n#progress",
+            trim = "Trimming Audio file...\n#progress",
+            init = "Loading Resources",
         },
+        stickerpack = {
+            add = 'Adding sticker to your pack',
+            del = 'Deleting sticker
     }
     return texts
 end
