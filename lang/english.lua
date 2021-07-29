@@ -185,14 +185,9 @@ function en.lang()
         Done = "Shared!",
         notcreator = "You are not the creator!",
         sendwait = "Please Wait.",
-        saka_sendtext = "تحويل ص الى مارك داون\nترسلين نص بين قوسين[] و يليهما الرابط بين قوسين مدورين)()\n مثل :-\n[كوكل](www.google.com)",
-        saka_sendtext1 = "ليصبح هكذا\n[كوكل](www.google.com)",
-        saka_sendtext2 = "او يمكنك عمل اكثر من مارك داون في نفس الوقت\nمثل :-\n[تيليكرام](telegram.me)\n[كوكل](www.google.com)",
-        saka_sendtext3 = "ليصبح الناتج هكذا \n[تيليكرام](telegram.me)\n[كوكل](www.google.com)\nللمزيد من المعلومات\n[زوروا حمودي!](telegram.me/haam00dy)",
-        saka_sendtext4 = "ارسل النص لتحويله الى مارك داون",
-        saka_err = "حدث خطأ, يرجى التأكد من الرسالة\nيجب ان يكون عدد هذا الرمز (_) زوجي دائما\nيجب ان يكون عدد هذا الرمز (*) زوجي دائما\nيجب ان يكو عدد هذا الرمز () و [] زوجي دائما",
-        saka_result = "النص الناتج :\n#text",
-        saka_success = "تم النشر بنجاح"
+        converting = {
+            voice = "Converting to Voice message\n#progress",
+        },
     }
     return texts
 end
