@@ -97,8 +97,9 @@ function en.lang()
         stickerpack = {
             add = 'Adding sticker to your pack',
             added = "Sticker added to your pack.\nYou can check your pack #here",
-            del = 'Deleting sticker,
+            del = 'Deleting sticker',
             deleted = "Sticker deleted from your pack.\nYou can check your pack #here",
+        }
     }
     return texts
 end
