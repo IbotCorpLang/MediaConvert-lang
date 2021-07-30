@@ -23,7 +23,7 @@ function en.lang()
                     {text = "Remove Caption", callback_data = "removecaption"}
                 },
                 {
-                    {text = "Convert to Audio", callback_data = "converttoaudio"}
+                    {text = "Audio", callback_data = "converttoaudio"}
                 },
             },
             audio = {
@@ -32,7 +32,7 @@ function en.lang()
                     {text = "Remove Caption", callback_data = "removecaption"}
                 },
                 {
-                    {text = "Convert to Voice messgae", callback_data = "converttovoice"}
+                    {text = "Voice message", callback_data = "converttovoice"}
                 },
                 {
                     {text = "Change Title", callback_data = "changefilename"},
@@ -45,7 +45,7 @@ function en.lang()
                     {text = "Remove Caption", callback_data = "removecaption"}
                 },
                 {
-                    {text = "Convert to Sticker", callback_data = "converttosticker"}
+                    {text = "Sticker", callback_data = "converttosticker"}
                 }
             },
             sticker = {
@@ -54,7 +54,7 @@ function en.lang()
                     {text = "Remove Caption", callback_data = "removecaption"}
                 },
                 {
-                    {text = "Convert to Photo", callback_data = "converttophoto"}
+                    {text = "Photo", callback_data = "converttophoto"}
                 }
             },
             video = {
@@ -63,8 +63,8 @@ function en.lang()
                     {text = "Remove Caption", callback_data = "removecaption"}
                 },
                 {
-                    {text = "Convert to Voice", callback_data = "converttovoice"},
-                    {text = "Convert to Audio", callback_data = "converttoaudio"}
+                    {text = "Voice", callback_data = "converttovoice"},
+                    {text = "Audio", callback_data = "converttoaudio"}
                 },
             },
         },
