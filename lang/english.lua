@@ -5,72 +5,72 @@ function en.lang()
         keyboard = {
             back = {
                 {
-                    {text = "Back", callback_data = "back"}
+                    {text = "↩️ Back", callback_data = "back"}
                 }
             },
             main = {
                 {
-                    {text = "About", callback_data = "about"},
-                    {text = "Help", callback_data = "help"}
+                    {text = "📖 About", callback_data = "about"},
+                    {text = "💡 Help", callback_data = "help"}
                 },
                 {
-                    {text = "Change language", callback_data = "changelanguage"},
+                    {text = "🌐 language", callback_data = "changelanguage"},
                 }
             },
             voice = {
                 {
-                    {text = "Put Caption", callback_data = "putcaption"},
-                    {text = "Remove Caption", callback_data = "removecaption"}
+                    {text = "♻️ Caption", callback_data = "putcaption"},
+                    {text = "❌ Caption", callback_data = "removecaption"}
                 },
                 {
-                    {text = "Audio", callback_data = "converttoaudio"}
+                    {text = "♻️Audio", callback_data = "converttoaudio"}
                 },
             },
             audio = {
                 {
-                    {text = "Add Caption ", callback_data = "putcaption"},
-                    {text = "Remove Caption", callback_data = "removecaption"}
+                    {text = "♻️ Caption ", callback_data = "putcaption"},
+                    {text = "❌ Caption", callback_data = "removecaption"}
                 },
                 {
-                    {text = "Voice message", callback_data = "converttovoice"}
+                    {text = "♻️ Voice message", callback_data = "converttovoice"}
                 },
                 {
-                    {text = "Change Title", callback_data = "changefilename"},
-                    {text = "Change Performer", callback_data = "putperformer"}
+                    {text = "♻️ Title", callback_data = "changefilename"},
+                    {text = "♻️ Performer", callback_data = "putperformer"}
                 }
             },
             photo = {
                 {
-                    {text = "Add Caption ", callback_data = "putcaption"},
-                    {text = "Remove Caption", callback_data = "removecaption"}
+                    {text = "♻️ Caption ", callback_data = "putcaption"},
+                    {text = "❌ Caption", callback_data = "removecaption"}
                 },
                 {
-                    {text = "Sticker", callback_data = "converttosticker"}
+                    {text = "♻️ Sticker", callback_data = "converttosticker"}
                 }
             },
             sticker = {
                 {
-                    {text = "Add Caption ", callback_data = "putcaption"},
-                    {text = "Remove Caption", callback_data = "removecaption"}
+                    {text = "♻️ Caption ", callback_data = "putcaption"},
+                    {text = "❌ Caption", callback_data = "removecaption"}
                 },
                 {
-                    {text = "Photo", callback_data = "converttophoto"}
+                    {text = "♻️ Photo", callback_data = "converttophoto"}
                 }
             },
             video = {
                 {
-                    {text = "Add Caption ", callback_data = "putcaption"},
-                    {text = "Remove Caption", callback_data = "removecaption"}
+                    {text = "♻️ Caption ", callback_data = "putcaption"},
+                    {text = "❌ Caption", callback_data = "removecaption"}
                 },
                 {
-                    {text = "Voice", callback_data = "converttovoice"},
-                    {text = "Audio", callback_data = "converttoaudio"}
+                    {text = "♻️ Voice", callback_data = "converttovoice"},
+                    {text = "♻️ Audio", callback_data = "converttoaudio"}
                 },
             },
         },
         row = {
             back = {
-                {text = "Back", callback_data = "back"}
+                {text = "↩️ Back", callback_data = "back"}
             },
             share = {
                 {text = "Share", callback_data = "share #type #fileid"}
