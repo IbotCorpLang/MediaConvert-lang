@@ -14,57 +14,57 @@ function ar.lang()
                     {text = "مساعدة", callback_data = "help"}
                 },
                 {
-                    {text = URL.escape("تغيير اللغة"), callback_data = "changelanguage"},
+                    {text = "تغيير اللغة", callback_data = "changelanguage"},
                 }
             },
             voice = {
                 {
-                    {text = URL.escape("وضع وصف"), callback_data = "putcaption"},
-                    {text = URL.escape("ازالة الوصف"), callback_data = "removecaption"}
+                    {text = "وضع وصف", callback_data = "putcaption"},
+                    {text = "ازالة الوصف", callback_data = "removecaption"}
                 },
                 {
-                    {text = URL.escape("تحويل الى ملف صوتي"), callback_data = "converttoaudio"}
+                    {text = "تحويل الى ملف صوتي", callback_data = "converttoaudio"}
                 },
             },
             audio = {
                 {
-                    {text = URL.escape("وضع وصف"), callback_data = "putcaption"},
-                    {text = URL.escape("ازالة الوصف"), callback_data = "removecaption"}
+                    {text = "وضع وصف", callback_data = "putcaption"},
+                    {text = "ازالة الوصف", callback_data = "removecaption"}
                 },
                 {
-                    {text = URL.escape("تحويل الى رسالة صوتية"), callback_data = "converttovoice"}
+                    {text = "تحويل الى رسالة صوتية", callback_data = "converttovoice"}
                 },
                 {
-                    {text = URL.escape("تغيير اسم الاغنيه"), callback_data = "changefilename"},
-                    {text = URL.escape("تغيير اسم الفنان"), callback_data = "putperformer"}
+                    {text = "تغيير اسم الاغنيه", callback_data = "changefilename"},
+                    {text = "تغيير اسم الفنان", callback_data = "putperformer"}
                 }
             },
             photo = {
                 {
-                    {text = URL.escape("وضع وصف"), callback_data = "putcaption"},
-                    {text = URL.escape("ازالة الوصف"), callback_data = "removecaption"}
+                    {text = "وضع وصف", callback_data = "putcaption"},
+                    {text = "ازالة الوصف", callback_data = "removecaption"}
                 },
                 {
-                    {text = URL.escape("تحويل الى ملصق"), callback_data = "converttosticker"}
+                    {text = "تحويل الى ملصق", callback_data = "converttosticker"}
                 }
             },
             sticker = {
                 {
-                    {text = URL.escape("وضع وصف"), callback_data = "putcaption"},
-                    {text = URL.escape("ازالة الوصف"), callback_data = "removecaption"}
+                    {text = "وضع وصف", callback_data = "putcaption"},
+                    {text = "ازالة الوصف", callback_data = "removecaption"}
                 },
                 {
-                    {text = URL.escape("تحويل الى صورة"), callback_data = "converttophoto"}
+                    {text = "تحويل الى صورة", callback_data = "converttophoto"}
                 }
             },
             video = {
                 {
-                    {text = URL.escape("وضع وصف"), callback_data = "putcaption"},
-                    {text = URL.escape("ازالة الوصف"), callback_data = "removecaption"}
+                    {text = "وضع وصف", callback_data = "putcaption"},
+                    {text = "ازالة الوصف", callback_data = "removecaption"}
                 },
                 {
-                    {text = URL.escape("تحويل الى رسالة صوتية"), callback_data = "converttovoice"},
-                    {text = URL.escape("تحويل الى ملف صوتي"), callback_data = "converttoaudio"}
+                    {text = "تحويل الى رسالة صوتية", callback_data = "converttovoice"},
+                    {text = "تحويل الى ملف صوتي", callback_data = "converttoaudio"}
                 },
             },
         },
@@ -73,7 +73,7 @@ function ar.lang()
                 {text = "رجوع", callback_data = "back"}
             },
             share = {
-                {text = URL.escape("مشاركة"), callback_data = "share #type #fileid"}
+                {text = "مشاركة", callback_data = "share #type #fileid"}
             }
         },
         maxreached = "*الحد الافصى للوصف هو 200 حرف*\nرجاءا ارسل وصفا يكون في مدى [*0*-*200*] حرف",
