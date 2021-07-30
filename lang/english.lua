@@ -78,7 +78,7 @@ function en.lang()
         },
         maxreached = "*Max Number of Characters is 200*\nPlease Send a Caption in range of [*0*-*200*]",
         help = "*HOW TO USE*\nAll you have to do is send a media file (it can be anying), Then a list will appear as an inline keyboard with the corresponding options.\nFor more information you can check our main channels :\n@IBcorp\n@Deliriumman\nThank you for using #botname <3",
-        about = "Version *2*\nThis project is made by [KONG](https://t.me/Deliriumman)\bSponsered by [IBotCompany](https://telegram.me/ibcorp)",
+        about = "Version *2*\nThis project is made by [KONG](https://t.me/Deliriumman)\bPowered by [IBotCorp](https://telegram.me/ibcorp)",
         sendcaption = "Send *The caption* now",
         filesizereached = "The Maximum File Size allowd is *50 MB*",
         sendtitle = "Send The new *Name* now",
