@@ -73,7 +73,7 @@ function en.lang()
                 {text = "Back", callback_data = "back"}
             },
             share = {
-                {text = URL.escape("Share To My Channel"), callback_data = "share #type #fileid"}
+                {text = URL.escape("Share"), callback_data = "share #type #fileid"}
             }
         },
         maxreached = "*Max Number of Characters is 200*\nPlease Send a Caption in range of [*0*-*200*]",
