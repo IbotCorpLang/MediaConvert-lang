@@ -1,11 +1,11 @@
 local ar = {}
 function ar.lang()
     local texts = {
-        welcome = "مرحبا بك في بوت تحويل الصيغ\nسأقوم بتحويل صيغة الmp3 الى رسالة صوتية او بالعكس\nللتواصل مع المبرمج [ادخل هنا](telegram.me/haam00dy)",
+        welcome = "مرحبا بك في #botname, انا احب التعديل على الوسائط!\nاضغط على *مساعدة* للمزيد من المعلومات",
         keyboard = {
             back = {
                 {
-                    {text = "الرجوع", callback_data = "back"}
+                    {text = "رجوع", callback_data = "back"}
                 }
             },
             main = {
@@ -15,181 +15,89 @@ function ar.lang()
                 },
                 {
                     {text = URL.escape("تغيير اللغة"), callback_data = "changelanguage"},
-                    {text = "قنواتي", callback_data = "mychannels"}
                 }
             },
             voice = {
                 {
-                    {text = URL.escape("اضافة نص"), callback_data = "putcaption"},
-                    {text = URL.escape("مسح النص"), callback_data = "removecaption"}
+                    {text = URL.escape("وضع وصف"), callback_data = "putcaption"},
+                    {text = URL.escape("ازالة الوصف"), callback_data = "removecaption"}
                 },
                 {
                     {text = URL.escape("تحويل الى ملف صوتي"), callback_data = "converttoaudio"}
                 },
-                {
-                    {text = URL.escape("مشاركة الى قناتي"), callback_data = "sharetomychannel"}
-                }
             },
             audio = {
                 {
-                    {text = URL.escape("اضافة نص"), callback_data = "putcaption"},
-                    {text = URL.escape("مسح النص"), callback_data = "removecaption"}
+                    {text = URL.escape("وضع وصف"), callback_data = "putcaption"},
+                    {text = URL.escape("ازالة الوصف"), callback_data = "removecaption"}
                 },
                 {
                     {text = URL.escape("تحويل الى رسالة صوتية"), callback_data = "converttovoice"}
                 },
                 {
-                    {text = URL.escape("تغيير الاسم"), callback_data = "changefilename"},
-                    {text = URL.escape("تغيير اسم المطرب"), callback_data = "putperformer"}
-                },
-                {
-                    {text = URL.escape("مشاركة الى قناتي"), callback_data = "sharetomychannel"}
-                }
-            },
-            voice1 = {
-                {
-                    {text = "اضافة نص", callback_data = "putcaption"},
-                    {text = "مسح النص", callback_data = "removecaption"}
-                },
-                {
-                    {text = "تحويل الى ملف صوتي", callback_data = "converttoaudio"}
-                },
-                {
-                    {text = "مشاركة الى قناتي", callback_data = "sharetomychannel"}
-                }
-            },
-            audio1 = {
-                {
-                    {text = "اضافة نص", callback_data = "putcaption"},
-                    {text = "مسح النص", callback_data = "removecaption"}
-                },
-                {
-                    {text = "تحويل الى رسالة صوتية", callback_data = "converttovoice"}
-                },
-                {
-                    {text = "تغيير الاسم", callback_data = "changefilename"},
-                    {text = "تغيير اسم المطرب", callback_data = "putperformer"}
-                },
-                {
-                    {text = "مشاركة الى قناتي", callback_data = "sharetomychannel"}
+                    {text = URL.escape("تغيير اسم الاغنيه"), callback_data = "changefilename"},
+                    {text = URL.escape("تغيير اسم الفنان"), callback_data = "putperformer"}
                 }
             },
             photo = {
                 {
-                    {text = URL.escape("اضافة نص "), callback_data = "putcaption"},
-                    {text = URL.escape("مسح النص"), callback_data = "removecaption"}
+                    {text = URL.escape("وضع وصف"), callback_data = "putcaption"},
+                    {text = URL.escape("ازالة الوصف"), callback_data = "removecaption"}
                 },
                 {
                     {text = URL.escape("تحويل الى ملصق"), callback_data = "converttosticker"}
-                },
-                {
-                    {text = URL.escape("مشاركة الى قناتي"), callback_data = "sharetomychannel"}
-                }
-            },
-            photo1 = {
-                {
-                    {text = "اضافة نص ", callback_data = "putcaption"},
-                    {text = "مسح النص", callback_data = "removecaption"}
-                },
-                {
-                    {text = "تحويل الى ملصق", callback_data = "converttosticker"}
-                },
-                {
-                    {text = "مشاركة الى قناتي", callback_data = "sharetomychannel"}
                 }
             },
             sticker = {
                 {
-                    {text = URL.escape("اضافة نص "), callback_data = "putcaption"},
-                    {text = URL.escape("مسح النص"), callback_data = "removecaption"}
+                    {text = URL.escape("وضع وصف"), callback_data = "putcaption"},
+                    {text = URL.escape("ازالة الوصف"), callback_data = "removecaption"}
                 },
                 {
                     {text = URL.escape("تحويل الى صورة"), callback_data = "converttophoto"}
+                }
+            },
+            video = {
+                {
+                    {text = URL.escape("وضع وصف"), callback_data = "putcaption"},
+                    {text = URL.escape("ازالة الوصف"), callback_data = "removecaption"}
                 },
                 {
-                    {text = URL.escape("مشاركة الى قناتي"), callback_data = "sharetomychannel"}
-                }
-            },
-            sticker1 = {
-                {
-                    {text = "اضافة نص ", callback_data = "putcaption"},
-                    {text = "مسح النص", callback_data = "removecaption"}
+                    {text = URL.escape("تحويل الى رسالة صوتية"), callback_data = "converttovoice"},
+                    {text = URL.escape("تحويل الى ملف صوتي"), callback_data = "converttoaudio"}
                 },
-                {
-                    {text = "تحويل الى صورة", callback_data = "converttophoto"}
-                },
-                {
-                    {text = "مشاركة الى قناتي", callback_data = "sharetomychannel"}
-                }
             },
-            nochannel = {
-                {
-                    {text = URL.escape("اضافة قنوات"), callback_data = "addchannels"},
-                    {text = URL.escape("القائمة الرئيسية"), callback_data = "back"}
-                }
-            },
-            channeloption = {
-                {
-                    {text = URL.escape("مسح قناة"), callback_data = "deletechannel"},
-                    {text = URL.escape("اضافة قناة"), callback_data = "addchannels"}
-                },
-                {
-                    {text = URL.escape("القائمة الرئيسية"), callback_data = "back"}
-                }
-            },
-            language = {
-                {
-                    {text = "العربية", callback_data = "arabic"},
-                    {text = "English", callback_data = "english"}
-                },
-                {
-                    {text = "Английский", callback_data = "russ"}
-                }
-            },
-            terms = {
-                {
-                    {text = "اقبل", callback_data = "accept"},
-                    {text = "ارفض", callback_data = "decline"}
-                }
-            },
-            saka = {
-                {
-                    {text = URL.escape("مشاركة الى قناتي"), callback_data = "sharemark"},
-                    {text = URL.escape("القائمة الرئيسية"), callback_data = "back"}
-                }
-            }
         },
         row = {
             back = {
                 {text = "رجوع", callback_data = "back"}
+            },
+            share = {
+                {text = URL.escape("مشاركة"), callback_data = "share #type #fileid"}
             }
         },
-        arry = {},
-        maxreached = "*عدد الاحرف المسموح هو 200*\n*رجاءا قم بأرسال نص بحدود 200 حرف *",
-        help = "كل ما عليك هو ان ترسل ملف صوتي او رسالة صوتية او ان تقوم بتحويلها الي\nثم ستظهر لك خيارات يمكك من خلالها تحويل الملف الى رسالة صوتية او بالعكس\nكما يمكنك ام تضيف قناتك الى البوت لكي يتم ارسال الرسالة الصوتية او الملف الصوتي الى القناة مباشرة",
-        about = "الاصدار 1.5.2\nتم صنع هذا المشروع من قبل [Modi](telegram.me/haam00dy)\nهذا المشروع برعاية [IBotCompany](telegram.me/ibotcompany)",
-        sendcaption = "قم بارسال النص",
-        filesizereached = "اقصى حجم مسموح هو *50* ميجا بايت",
-        nochannels = "ليس لديك اي قناة يجب عليك اضافة قنوات لكي تشارك ملفاتك",
-        nochannels1 = "ليس لديك اي قناة يجب عليك اضافة قنوات",
-        channellist = "قنواتك :",
-        sendtitle = "ارسل الاسم الان",
-        sendperformer = "ارسل اسم المطرب الان",
-        addchannel = "قم بترقيتي ادمن في قناتك\nثم ارسل معرف او ايدي القناة او قم بتحويل رسالة من قناتك الي",
-        terms = "القوانين و الشروط\nان مشروع بوت تحويل الصيغ هو مشروع مجاني و لا يتطلب منك اي دفع اجباري\nولكن لكي تفعل خدمة الشر في قنواتك العامة او الخاصة يجب عليك ان تكمل بعض العروض المجانية التي لا تطلب اي دفع من وقت  الى اخر\nيمكك الرفض او القبول",
-        decline = "يمكنك ان توافق على الشروط في اي وقت عن طريق الضغط على زر اضاقة قنوات",
-        notfromachannel = "رجاءا قم بتحويل الرسالة من قناة فقط لا غير",
-        channeldeleted = "تم حذف القناة",
-        usernameerror = "هذا المعرف لا ينتمي الى قناة\nالرجاء التحقق من المعرف",
-        notachanneladmin = "قم بترقيتي ادمن في هذه القناة اولا",
-        channeladded = "تم اضافة قناة جديدة",
-        Done = "تم النشر",
-        notcreator = "انت لست منشئ القناة",
-        sendwait = "انتظر قليلا.",
+        maxreached = "*الحد الافصى للوصف هو 200 حرف*\nرجاءا ارسل وصفا يكون في مدى [*0*-*200*] حرف",
+        help = "*طريقة الاستخدام*\nكل ما عليك هو ان ترسل اي نوع من الوسائط, بعدها ستظهر لك قائمة شفافة فيها الخيارات المناسبة.\nللمزيد من المعلومات تابع جديدنا :\n@IBcorp\n@Deliriumman\nشكرا لأستخدامك #botname <3",
+        about = "الاصدار *2*\nتم كتابة هذا المشروع من قبل [KONG](https://t.me/Deliriumman)\bبرعاية [IBotCorp](https://telegram.me/ibcorp)",
+        sendcaption = "ارسل *الوصف الجديد* الان",
+        filesizereached = "اقصى حجم مسموح للوسائط هو *50 ميجابايت*",
+        sendtitle = "ارسل *اسم الاغنية الجديد& الان",
+        sendperformer = "ارسل *اسم الفنان الجديد* الان",
+        sendwait = "يرجى الانتظار.",
         converting = {
-            voice = "جاري التحويل لبصمة\n#progress",
+            voice = "جاري التحويل الى *رسالة صوتية*\n#progress",
+            audio = "جاري التحويل الى *ملف صوتي*\n#progress",
+            sticker = "جاري التحويل الى *ملصق*\n#progress",
+            photo = "جاري التحويل الى *صورة*\n#progress",
+            trim = "جاري &قص المقطع الصوتي*\n#progress",
+            init = "*جاري تحميل الموارد*",
         },
-        
+        stickerpack = {
+            add = 'جاري اضافة الملصق الى باقتك',
+            added = "تم اضافة الملصق الى باقتك.\nيمكنك الوصول لباقتك #here",
+            del = 'جاري حذف الملصق',
+            deleted = "تم حذف الملصق من باقتك.\nيمكنك الوصول لباقتك #here",
+        }
     }
     return texts
 end
