@@ -14,57 +14,57 @@ function en.lang()
                     {text = "Help", callback_data = "help"}
                 },
                 {
-                    {text = URL.escape("Change language"), callback_data = "changelanguage"},
+                    {text = "Change language", callback_data = "changelanguage"},
                 }
             },
             voice = {
                 {
-                    {text = URL.escape("Put Caption"), callback_data = "putcaption"},
-                    {text = URL.escape("Remove Caption"), callback_data = "removecaption"}
+                    {text = "Put Caption", callback_data = "putcaption"},
+                    {text = "Remove Caption", callback_data = "removecaption"}
                 },
                 {
-                    {text = URL.escape("Convert to Audio"), callback_data = "converttoaudio"}
+                    {text = "Convert to Audio", callback_data = "converttoaudio"}
                 },
             },
             audio = {
                 {
-                    {text = URL.escape("Add Caption "), callback_data = "putcaption"},
-                    {text = URL.escape("Remove Caption"), callback_data = "removecaption"}
+                    {text = "Add Caption ", callback_data = "putcaption"},
+                    {text = "Remove Caption", callback_data = "removecaption"}
                 },
                 {
-                    {text = URL.escape("Convert to Voice messgae"), callback_data = "converttovoice"}
+                    {text = "Convert to Voice messgae", callback_data = "converttovoice"}
                 },
                 {
-                    {text = URL.escape("Change Title"), callback_data = "changefilename"},
-                    {text = URL.escape("Change Performer"), callback_data = "putperformer"}
+                    {text = "Change Title", callback_data = "changefilename"},
+                    {text = "Change Performer", callback_data = "putperformer"}
                 }
             },
             photo = {
                 {
-                    {text = URL.escape("Add Caption "), callback_data = "putcaption"},
-                    {text = URL.escape("Remove Caption"), callback_data = "removecaption"}
+                    {text = "Add Caption ", callback_data = "putcaption"},
+                    {text = "Remove Caption", callback_data = "removecaption"}
                 },
                 {
-                    {text = URL.escape("Convert to Sticker"), callback_data = "converttosticker"}
+                    {text = "Convert to Sticker", callback_data = "converttosticker"}
                 }
             },
             sticker = {
                 {
-                    {text = URL.escape("Add Caption "), callback_data = "putcaption"},
-                    {text = URL.escape("Remove Caption"), callback_data = "removecaption"}
+                    {text = "Add Caption ", callback_data = "putcaption"},
+                    {text = "Remove Caption", callback_data = "removecaption"}
                 },
                 {
-                    {text = URL.escape("Convert to Photo"), callback_data = "converttophoto"}
+                    {text = "Convert to Photo", callback_data = "converttophoto"}
                 }
             },
             video = {
                 {
-                    {text = URL.escape("Add Caption "), callback_data = "putcaption"},
-                    {text = URL.escape("Remove Caption"), callback_data = "removecaption"}
+                    {text = "Add Caption ", callback_data = "putcaption"},
+                    {text = "Remove Caption", callback_data = "removecaption"}
                 },
                 {
-                    {text = URL.escape("Convert to Voice"), callback_data = "converttovoice"},
-                    {text = URL.escape("Convert to Audio"), callback_data = "converttoaudio"}
+                    {text = "Convert to Voice", callback_data = "converttovoice"},
+                    {text = "Convert to Audio", callback_data = "converttoaudio"}
                 },
             },
         },
@@ -73,7 +73,7 @@ function en.lang()
                 {text = "Back", callback_data = "back"}
             },
             share = {
-                {text = URL.escape("Share"), callback_data = "share #type #fileid"}
+                {text = "Share", callback_data = "share #type #fileid"}
             }
         },
         maxreached = "*Max Number of Characters is 200*\nPlease Send a Caption in range of [*0*-*200*]",
