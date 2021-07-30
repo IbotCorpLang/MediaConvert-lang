@@ -14,57 +14,57 @@ function ru.lang()
                     {text = "помощь", callback_data = "help"}
                 },
                 {
-                    {text = URL.escape("изменение языка"), callback_data = "changelanguage"},
+                    {text = "изменение языка", callback_data = "changelanguage"},
                 }
             },
             voice = {
                 {
-                    {text = URL.escape("Поместить подпись"), callback_data = "putcaption"},
-                    {text = URL.escape("Удалить подпись"), callback_data = "removecaption"}
+                    {text = "Поместить подпись", callback_data = "putcaption"},
+                    {text = "Удалить подпись", callback_data = "removecaption"}
                 },
                 {
-                    {text = URL.escape("Преобразовать в аудио"), callback_data = "converttoaudio"}
+                    {text = "Преобразовать в аудио", callback_data = "converttoaudio"}
                 },
             },
             audio = {
                 {
-                    {text = URL.escape("поставить подпись"), callback_data = "putcaption"},
-                    {text = URL.escape("Удалить подпись"), callback_data = "removecaption"}
+                    {text = "поставить подпись", callback_data = "putcaption"},
+                    {text = "Удалить подпись", callback_data = "removecaption"}
                 },
                 {
-                    {text = URL.escape("Преобразовать в голос"), callback_data = "converttovoice"}
+                    {text = "Преобразовать в голос", callback_data = "converttovoice"}
                 },
                 {
-                    {text = URL.escape("Изменить заголовок"), callback_data = "changefilename"},
-                    {text = URL.escape("Сменить исполнителя"), callback_data = "putperformer"}
+                    {text = "Изменить заголовок", callback_data = "changefilename"},
+                    {text = "Сменить исполнителя", callback_data = "putperformer"}
                 }
             },
             photo = {
                 {
-                    {text = URL.escape("поставить подпись"), callback_data = "putcaption"},
-                    {text = URL.escape("Удалить подпись"), callback_data = "removecaption"}
+                    {text = "поставить подпись", callback_data = "putcaption"},
+                    {text = "Удалить подпись", callback_data = "removecaption"}
                 },
                 {
-                    {text = URL.escape("Преобразовать в стикер"), callback_data = "converttosticker"}
+                    {text = "Преобразовать в стикер", callback_data = "converttosticker"}
                 }
             },
             sticker = {
                 {
-                    {text = URL.escape("поставить подпись"), callback_data = "putcaption"},
-                    {text = URL.escape("Удалить подпись"), callback_data = "removecaption"}
+                    {text = "поставить подпись", callback_data = "putcaption"},
+                    {text = "Удалить подпись", callback_data = "removecaption"}
                 },
                 {
-                    {text = URL.escape("Преобразовать в фото"), callback_data = "converttophoto"}
+                    {text = "Преобразовать в фото", callback_data = "converttophoto"}
                 }
             },
             video = {
                 {
-                    {text = URL.escape("поставить подпись"), callback_data = "putcaption"},
-                    {text = URL.escape("Удалить подпись"), callback_data = "removecaption"}
+                    {text = "поставить подпись", callback_data = "putcaption"},
+                    {text = "Удалить подпись", callback_data = "removecaption"}
                 },
                 {
-                    {text = URL.escape("Преобразовать в голос"), callback_data = "converttovoice"},
-                    {text = URL.escape("Преобразовать в аудио"), callback_data = "converttoaudio"}
+                    {text = "Преобразовать в голос", callback_data = "converttovoice"},
+                    {text = "Преобразовать в аудио", callback_data = "converttoaudio"}
                 },
             },
         },
@@ -73,7 +73,7 @@ function ru.lang()
                 {text = "Вернись", callback_data = "back"}
             },
             share = {
-                {text = URL.escape("доля"), callback_data = "share #type #fileid"}
+                {text = "доля", callback_data = "share #type #fileid"}
             }
         },
         maxreached = "*Максимальное количество символов  \"200\"*\nПожалуйста, отправьте подпись в диапазоне [*0* - *200*]",
