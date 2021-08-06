@@ -73,7 +73,7 @@ function ru.lang()
                 {text = "Вернись", callback_data = "back"}
             },
             share = {
-                {text = "доля", callback_data = "share #type #fileid"}
+                {text = "доля", switch_inline_query = "share #type #fileid"}
             }
         },
         maxreached = "*Максимальное количество символов  \"200\"*\nПожалуйста, отправьте подпись в диапазоне [*0* - *200*]",
