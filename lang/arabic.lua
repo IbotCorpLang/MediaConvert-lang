@@ -73,7 +73,7 @@ function ar.lang()
                 {text = "رجوع", callback_data = "back"}
             },
             share = {
-                {text = "مشاركة", callback_data = "share #type #fileid"}
+                {text = "مشاركة", switch_inline_query = "share #type #fileid"}
             }
         },
         maxreached = "*الحد الافصى للوصف هو 200 حرف*\nرجاءا ارسل وصفا يكون في مدى [*0*-*200*] حرف",
