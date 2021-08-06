@@ -105,7 +105,7 @@ function en.lang()
             audio = "Share Audio",
             sticker = "Share Sticker",
             gif = "Share GIF",
-            voice "Share Voice",
+            voice = "Share Voice",
             photo = "Share Photo",
         }
     }
