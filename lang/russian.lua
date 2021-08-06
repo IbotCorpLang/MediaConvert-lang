@@ -97,6 +97,14 @@ function ru.lang()
             added = "Наклейка добавлена в ваш набор.\nВы можете проверить свой пакет #here",
             del = 'Удаление стикера',
             deleted = "Стикер удален из вашего пакета.\nВы можете проверить свой пакет #here",
+        },
+        share = {
+            video = "Share Video",
+            audio = "Share Audio",
+            sticker = "Share Sticker",
+            gif = "Share GIF",
+            voice "Share Voice",
+            photo = "Share Photo",
         }
     }
     return texts
