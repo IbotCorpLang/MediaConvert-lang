@@ -1,7 +1,7 @@
 local en = {}
 function en.lang()
     local texts = {
-        welcome = "Welcome to #botname, I love editing media!\nClick *help* for more info",
+        welcome = "Welcome to #botname, I love editing media!\nClick *help* for more info.",
         keyboard = {
             back = {
                 {
