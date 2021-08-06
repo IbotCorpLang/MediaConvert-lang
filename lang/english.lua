@@ -99,6 +99,14 @@ function en.lang()
             added = "Sticker added to your pack.\nYou can check your pack #here",
             del = 'Deleting sticker',
             deleted = "Sticker deleted from your pack.\nYou can check your pack #here",
+        },
+        share = {
+            video = "Share Video",
+            audio = "Share Audio",
+            sticker = "Share Sticker",
+            gif = "Share GIF",
+            voice "Share Voice",
+            photo = "Share Photo",
         }
     }
     return texts
