@@ -35,6 +35,9 @@ function ar.lang()
                     {text = "تحويل الى رسالة صوتية", callback_data = "converttovoice"}
                 },
                 {
+                    {text = "تحويل الي صوت 8D", callback_data = "converttoaudio8d"}
+                },
+                {
                     {text = "تغيير اسم الاغنيه", callback_data = "changefilename"},
                     {text = "تغيير اسم الفنان", callback_data = "putperformer"}
                 }
@@ -89,6 +92,7 @@ function ar.lang()
         converting = {
             voice = "جاري التحويل الى *رسالة صوتية*\n#progress",
             audio = "جاري التحويل الى *ملف صوتي*\n#progress",
+            audio8d = "جاري التحويل الى *ملف صوتي 8D*\n#progress",
             sticker = "جاري التحويل الى *ملصق*\n#progress",
             photo = "جاري التحويل الى *صورة*\n#progress",
             trim = "جاري &قص المقطع الصوتي*\n#progress",
