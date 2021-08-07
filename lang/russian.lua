@@ -105,6 +105,7 @@ function ru.lang()
             gif = "Share GIF",
             voice = "Share Voice",
             photo = "Share Photo",
+            document = "Share Document",
         }
     }
     return texts
