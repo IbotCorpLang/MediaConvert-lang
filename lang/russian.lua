@@ -92,7 +92,7 @@ function ru.lang()
         converting = {
             voice = "Преобразование в *голосовое сообщение*\n#progress",
             audio = "Преобразование в *Аудио*\n#progress",
-            audio = "Преобразование в *Аудио 8D*\n#progress",
+            audio8d = "Преобразование в *Аудио 8D*\n#progress",
             sticker = "Преобразование в *стикер*\n#progress",
             photo = "Преобразование в *фото*\n#progress",
             trim = "Обрезка аудиофайла...\n#progress",
