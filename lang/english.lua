@@ -95,7 +95,7 @@ function en.lang()
             video = "Converting to *Video*\n#progress",
             audio = "Converting to *Audio*\n#progress",
             sticker = "Converting to *Sticker*\n#progress",
-            audio = "Converting to *Audio 8D*\n#progress",
+            audio8d = "Converting to *Audio 8D*\n#progress",
             photo = "Converting to *Photo*\n#progress",
             trim = "Trimming Audio file...\n#progress",
             init = "Loading Resources",
