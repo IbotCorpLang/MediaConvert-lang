@@ -35,6 +35,9 @@ function en.lang()
                     {text = "♻️ Voice message", callback_data = "converttovoice"}
                 },
                 {
+                    {text = "♻️ 8D", callback_data = "converttoaudio8d"}
+                },
+                {
                     {text = "♻️ Title", callback_data = "changefilename"},
                     {text = "♻️ Performer", callback_data = "putperformer"}
                 }
@@ -92,6 +95,7 @@ function en.lang()
             video = "Converting to *Video*\n#progress",
             audio = "Converting to *Audio*\n#progress",
             sticker = "Converting to *Sticker*\n#progress",
+            audio = "Converting to *Audio 8D*\n#progress",
             photo = "Converting to *Photo*\n#progress",
             trim = "Trimming Audio file...\n#progress",
             init = "Loading Resources",
