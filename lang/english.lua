@@ -85,7 +85,7 @@ function en.lang()
         sendperformer = "Send The New *Performer* now",
         Done = "Shared!",
         sendwait = "Please Wait.",
-        markdownerr = "Error setting caption!\nThe caption contains unfinished markdown characters, You can escape markdown characters with this \"\\\"\nMore information \markdown",
+        markdownerr = "Error setting caption!\nThe caption contains unfinished markdown characters, You can escape markdown characters with this \"\\\"\nMore information /markdown",
         markdownhelp = "How to esape markdown characters:\nAll you need to do is put this prefix \"\\\" in front of any special character\nSpecial characters: _, *, [, ], (, ), ~, `, >, #, +, -, =, |, {, }, ., !",
         converting = {
             voice = "Converting to *Voice message*\n#progress",
