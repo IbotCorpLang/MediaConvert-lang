@@ -35,7 +35,7 @@ function ar.lang()
                     {text = "تحويل الى رسالة صوتية", callback_data = "converttovoice"}
                 },
                 {
-                    {text = "تحويل الي صوت 8D", callback_data = "converttoaudio8d"}
+                    {text = "تحويل الى صوت 8D", callback_data = "converttoaudio8d"}
                 },
                 {
                     {text = "تغيير اسم الاغنيه", callback_data = "changefilename"},
