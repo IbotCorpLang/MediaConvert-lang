@@ -97,6 +97,7 @@ function ar.lang()
             photo = "جاري التحويل الى *صورة*\n#progress",
             trim = "جاري &قص المقطع الصوتي*\n#progress",
             init = "*جاري تحميل الموارد*",
+            boost = "*جاري تضخيم الصوت*\n#progress",
         },
         stickerpack = {
             add = 'جاري اضافة الملصق الى باقتك',
