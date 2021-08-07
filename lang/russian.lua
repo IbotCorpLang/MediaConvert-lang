@@ -35,6 +35,9 @@ function ru.lang()
                     {text = "Преобразовать в голос", callback_data = "converttovoice"}
                 },
                 {
+                    {text = "8D", callback_data = "converttoaudio8d"}
+                },
+                {
                     {text = "Изменить заголовок", callback_data = "changefilename"},
                     {text = "Сменить исполнителя", callback_data = "putperformer"}
                 }
@@ -89,6 +92,7 @@ function ru.lang()
         converting = {
             voice = "Преобразование в *голосовое сообщение*\n#progress",
             audio = "Преобразование в *Аудио*\n#progress",
+            audio = "Преобразование в *Аудио 8D*\n#progress",
             sticker = "Преобразование в *стикер*\n#progress",
             photo = "Преобразование в *фото*\n#progress",
             trim = "Обрезка аудиофайла...\n#progress",
