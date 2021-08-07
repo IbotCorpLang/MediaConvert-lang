@@ -84,6 +84,8 @@ function ru.lang()
         sendtitle = "Отправить новое *Имя* сейчас",
         sendperformer = "Отправить нового *исполнителя* сейчас",
         sendwait = "Пожалуйста, подождите.",
+        markdownerr = "Error setting caption!\nThe caption contains unfinished markdown characters, You can escape markdown characters with this \"\\\"\nMore information \markdown",
+        markdownhelp = "How to esape markdown characters:\nAll you need to do is put this prefix \"\\\" in front of any special character\nSpecial characters: _, *, [, ], (, ), ~, `, >, #, +, -, =, |, {, }, ., !",
         converting = {
             voice = "Преобразование в *голосовое сообщение*\n#progress",
             audio = "Преобразование в *Аудио*\n#progress",
