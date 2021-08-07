@@ -97,6 +97,7 @@ function ru.lang()
             photo = "Преобразование в *фото*\n#progress",
             trim = "Обрезка аудиофайла...\n#progress",
             init = "Загрузка ресурсов",
+            boost = "*Boosting Audio*\n#progress",
         },
         stickerpack = {
             add = 'Добавление стикера в рюкзак',
