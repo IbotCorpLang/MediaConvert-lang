@@ -105,6 +105,7 @@ function ar.lang()
             gif = "مشاركة المتحركة",
             voice = "مشاركة الرساله الصوتية",
             photo = "مشاركة الصورة",
+            document = "مشاركة الملف",
         }
     }
     return texts
