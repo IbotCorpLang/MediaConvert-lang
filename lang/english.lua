@@ -99,6 +99,7 @@ function en.lang()
             photo = "Converting to *Photo*\n#progress",
             trim = "Trimming Audio file...\n#progress",
             init = "Loading Resources",
+            boost = "*Boosting Audio*\n#progress",
         },
         stickerpack = {
             add = 'Adding sticker to your pack',
